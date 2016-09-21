@@ -1,0 +1,11 @@
+application: my-mod-ex
+
+dispatch:
+  - url: "my-dev-dot-my-mod-ex.appspot.com/"
+    module: my-dev-service
+
+  - url: "my-prod-dot-my-mod-ex.appspot.com/"
+    module: my-prod-service
+
+  - url: "my-qa-dot-my-mod-ex.appspot.com/"
+    module: my-qa-service
