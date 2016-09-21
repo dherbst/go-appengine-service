@@ -10,5 +10,5 @@ func init() {
 }
 
 func IndexHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "dev host=%v\n", r.Host)
+	fmt.Fprintf(w, "dev v2 host=%v\n", r.Host)
 }

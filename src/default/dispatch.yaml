@@ -5,7 +5,7 @@ dispatch:
     module: my-dev-service
 
   - url: "my-prod-dot-my-mod-ex.appspot.com/"
-    module: my-prod-service
+    module: my-dev-service
 
   - url: "my-qa-dot-my-mod-ex.appspot.com/"
-    module: my-qa-service
+    module: my-dev-service
