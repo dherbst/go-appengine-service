@@ -7,4 +7,4 @@ Let's say you have a service for counting, called countess (countess is the Coun
 
 ## Running
 
-    goapp serve dispatch.yaml src/default/app.yaml src/mydevservice/app.yaml
+    goapp serve src/default/dispatch.yaml src/default/app.yaml src/mydevservice/app.yaml
